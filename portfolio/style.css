@@ -1,0 +1,181 @@
+/* add reset */
+*{
+  position: relative;
+  box-sizing: border-box;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+	font-family: 'Courier', arial, times new roman;
+}
+
+
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+}
+
+.heading{
+	font-size: 55px;
+	color: #000;
+	margin-bottom: 48px;
+}
+
+
+
+.wrapper{
+
+}
+
+.side-nav{
+	position: fixed;
+	right: 10px;
+	top: 50%;
+	/*height: 500px;*/
+	transform: translateY(-50%);
+	/*border: 1px solid black;*/
+}
+
+.side-nav__item{
+	display: inline-block;
+	font-size: 20px;
+	width: 160px;
+	/*border: 1px solid black;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*height: 30px;*/
+	line-height: 25px;
+	text-align: center;
+	cursor: pointer;
+	/*background-color: #fff;*/
+}
+
+@media(max-width: 768px){
+	.side-nav__item{
+		font-size: 15px;
+		line-height: 10px;
+	}
+	.side-nav{
+		right: 0;
+	}
+}
+
+.side-nav .active .side-nav__item{
+	color: #33CCFF;
+	transition: 0.2s;
+	/*background-color: none;*/
+}
+
+.side-nav__item:hover{
+	color: #33CCFF;
+}
+
+.header{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+.navbar{
+	/*background-color: rgba(0,0,0,0.5);*/
+}
+
+.navbar__logo{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-image: url("./images/logo2.png");
+	background-repeat: no-repeat;
+	background-size: 90px;
+	float: left;
+	background-color: transparent;
+}
+
+.nav__icon-group{
+	padding: 25px;
+	line-height: 32px;
+	float: left;
+}
+
+.icon-btn{
+	display: inline-block;
+	vertical-align: middle;
+	/*border: 1px solid black;*/
+}
+
+
+.icon{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	margin-top: 10px;
+	/*border: 1px solid black;*/
+	background-position: center;
+	background-size: cover;
+	/*vertical-align: middle;*/
+
+
+}
+.navbar__nav{
+	/*float: right;*/
+}
+
+.nav__icon-group .icon-btn{
+	margin-right: 25px;
+}
+.nav__icon-group .icon-btn:last-child{
+	margin:0;
+}
+
+.icon-fb{
+	background-image: url("./images/facebook.svg");
+}
+
+
+.icon-linkedin{
+	background-image: url("./images/linkedin.svg");
+}
+
+
+.icon-fb:hover, .icon-linkedin:hover{
+	margin-top: 0;
+}
+
+
+.btn{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.hero--bg-covered{
+	background-image: url("./images/herobg.JPG");
+	background-size: cover;
+	background-position: center;
+}
+
+.hero--bg-covered:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	opacity: 0.6;
+}
+
+
+
+
+
+
