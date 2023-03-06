@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .info__title{
 	font-size: 48px;
-	margin-bottom: 60px;
+	margin-bottom: 56px;
 	color: #33CCFF;
 
 }
@@ -317,9 +317,9 @@ h1, h2, h3, h4, h5, h6, p{
 	/*border: 1px solid #000;*/
 	width: 280px;
 	height: 350px;
-	left: 50%;
-	transform: translateX(-50%);
-	margin-right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	
 }
 
 .profile-pic .images{
@@ -342,16 +342,14 @@ h1, h2, h3, h4, h5, h6, p{
 		font-size: 14px;
 	}
 	.profile-pic{
-		padding: 16px;
+		/*padding: 16px;*/
 		width: 170px;
 		height: 200px;
-		left: 76px;
-		margin-bottom: 35px;
+		/*left: 76px;*/
+		/*margin-bottom: 35px;*/
+		top: 120px;
 	}
-	.col-sm-3{
-		margin-bottom: 10px;
-		padding: 0;
-	}
+
 	.uni-icon{
 		left: 76px;
 	}
@@ -359,7 +357,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .exp-card{
-	padding:15px;
+	padding-left: 0;
 	padding-top: 0;
 
 
