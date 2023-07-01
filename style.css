@@ -282,6 +282,7 @@ h1, h2, h3, h4, h5, h6, p{
 @media (max-width: 768px){
 	.info__title{
 		font-size: 35px;
+		margin-top: 15px;
 		margin-bottom: 15px;
 	}
 	.info__subtitle{
@@ -337,7 +338,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .about-icon{
 	padding: 0;
-	margin-top: 50px;
+	margin-top: 60px;
 }
 
 
